@@ -1,6 +1,7 @@
 <!DOCTYPE html> 
 <html lang="en"> 
 <head> 
+<link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}" />
 <meta charset="UTF-8"> 
 <title>My Website - About</title> 
 </head> 
@@ -8,5 +9,7 @@
 <h1>Nasya Burrell</h1> 
 <p>I am 21 years old in my final year of Computer Science.I love to read,watch RomComs.</p> 
 <p>I have a dog named Rocky that I've had for 3 years and is basically my child.</p>
+<img src="{{ url_for('static', filename='rocky.jpeg') }}" alt="Rocky" width="250">
+
 </body> 
 </html>
